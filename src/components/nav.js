@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import Logo from "../images/logo.png"
+import Logo from "../images/WMHD-Logo.png"
 
 class Nav extends React.Component {
   state = {}
@@ -35,14 +35,37 @@ class Nav extends React.Component {
             <div id="navbar">
               <ul className="nav navbar-nav">
                 <li className="visible-xs-block">
-                  <Link to="/" className="brand"><img src={Logo} height="70px" alt="WMHD Logo" /></Link>
+                  <Link to="/" className="brand"><img src={Logo} height="60px" alt="WMHD Logo" /></Link>
                 </li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/services">Services</Link></li>
+                <li class="dropdown">
+                <a href="/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Current</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="/Services">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">DJ</a></li>
+                    <li><a href="#">Equipment</a></li>
+                    <li><a href="#">Guitar</a></li>
+                    <li><a href="#">Podcasting</a></li>
+                    <li><a href="#">Production</a></li>
+                    <li><a href="#">Recording Studio</a></li>
+                  </ul>
+                </li>
                 <li className="hidden-xs">
                   <Link to="/" className="brand"><img src={Logo} alt="WMHD Logo" /></Link>
                 </li>
-                <li><Link to="/archive">Archive</Link></li>
+                <li class="dropdown">
+                  <a href="/archive" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archive <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">New Music Monday</a></li>
+                    <li><a href="#">Podcasts</a></li>
+                    <li><a href="#">Alumni</a></li>
+                  </ul>
+                </li>
                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform">Rental/DJ Requests</a></li>
               </ul>{ /* /.nav */ }
             </div>{ /*/.nav-collapse */ }

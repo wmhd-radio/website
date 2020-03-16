@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Nav from "../components/nav"
 import Schedule from "../components/schedule"
 
-import Banner from "../images/banner.jpg"  
+import Banner from "../images/banner2.jpg"  
 import "../components/index.css"
 
 const IndexPage = () => (
@@ -49,6 +49,25 @@ const IndexPage = () => (
 
     <Nav home={true}/>
 
+    { /* Highlight Begin */ }
+    <section className="highlight" id="highlight">
+      <div className="container">
+        <div className="overlay">
+          <h2>Check This Out</h2>
+            <h3>It’s Alive: A Halloween Radio Play</h3>
+              <p>Aired Oct. 31, 2018
+              After several months of research and working out the bugs WMHD is finally able to host live radio shows. One of these first live shows named “It’s Alive!” a live request show where listeners can email in their favorite Halloween songs. Friends and family are all asked to listen and participate firstly to give the host songs to play and secondly to notify the host if any of the previous issues appear with the first broadcast.</p><p> 
+              Things start off smoothly as listeners email in requests however things begin to fall off track as the program glitches. At first, it appears to only be an awkward pause between songs but soon it becomes apparent there is more to these technical difficulties than just dead air. 
+              </p><p>
+              This play was written by Katana Colledge. The host was played by Katana Colledge. The Equipment Director was played by Graham Hepworth.</p>
+              <audio src="assets/audio/halo_play.mp3" controls>
+              Your browser does not support the audio element.
+              </audio>
+        </div>
+      </div>{ /* /.container */ }
+    </section>{ /* highlight */ }
+    { /* Highlight End */ }
+
     { /* Schedule Begin */ }
     <section className="schedule" id="schedule">
       <div className="overlay"></div>
@@ -63,6 +82,45 @@ const IndexPage = () => (
       </div>{ /* /.container */ }
     </section>{ /* /.schedule */ }
     { /* Schedule End */ }
+
+    { /* Rentals Begin */ }
+    <section className="rentals" id="rentals">
+      <div className="container">
+        <div className="overlay">
+          <h2>Do You Need Some Equipment For An Event?</h2>
+          <div className="text">
+            <p>Luckily for you, WMHD offers our equpiment for rental! If you have an event coming up and are in need of anything music related, we're here.</p>
+         </div>
+        </div>
+      </div>{ /* /.container */ }
+    </section>{ /* rentals */ }
+    { /* Rentals End */ }
+
+    { /* Highlight Begin */ }
+    <section className="highlight" id="highlight">
+      <div className="container">
+        <div className="overlay">
+          <h2>Check This Out</h2>
+          <div className="text">
+            <p>This show was aired (date) and was originally created by (creator).</p>
+         </div>
+        </div>
+      </div>{ /* /.container */ }
+    </section>{ /* highlight */ }
+    { /* Highlight End */ }
+
+    { /* About Begin */ }
+    <section className="highlight" id="highlight">
+      <div className="container">
+        <div className="overlay">
+          <h2>About WMHD</h2>
+          <div className="text">
+            <p>WMHD is an online college radio station hosted by students of Rose-Hulman Institute of Technology.</p>
+         </div>
+        </div>
+      </div>{ /* /.container */ }
+    </section>{ /* about */ }
+    { /* About End */ }
 
     { /* calendarbegin */ }
     <section className="calendar" id="calendar">
