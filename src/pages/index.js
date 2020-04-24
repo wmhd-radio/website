@@ -3,7 +3,6 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 
 import SEO from "../components/seo"
 import Nav from "../components/nav"
-import Schedule from "../components/schedule"
 
 import Banner from "../images/banner2.jpg"  
 import "../components/index.css"
@@ -69,7 +68,7 @@ const IndexPage = () => (
     { /* Highlight End */ }
 
     { /* Schedule Begin */ }
-    <section className="schedule" id="schedule">
+    {/*<section className="schedule" id="schedule">
       <div className="overlay"></div>
       <div className="container content">
         <div className="col-md-12 title wow animated fadeIn" data-wow-delay="0.3s">
@@ -78,9 +77,8 @@ const IndexPage = () => (
             <p>All times are in EST.</p>
           </div>
         </div>
-        <Schedule />
-      </div>{ /* /.container */ }
-    </section>{ /* /.schedule */ }
+      </div>
+    </section>*/}
     { /* Schedule End */ }
 
     { /* Rentals Begin */ }
@@ -127,7 +125,7 @@ const IndexPage = () => (
           <div className="overlay"></div>
           <div className="container content">
             <div className="col-md-12 title wow animated fadeIn" data-wow-delay="0.5s"><h2>Calendar</h2></div>
-            <iframe src="https://calendar.google.com/calendar/embed?src=wmhdradio%40gmail.com&ctz=America/New_York" title="calendar" style={{border: 0}} width="100%" height="600" frameBorder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=wmhdradio%40gmail.com&amp;ctz=America/New_York&amp;mode=AGENDA&amp;color=%23D50000" title="calendar" style={{border: 0}} width="100%" height="600" frameBorder="0" scrolling="no"></iframe>
           </div> { /*/.container*/ }
     </section>{ /*/.calendar*/ }
     { /* calendar end */ }
