@@ -58,14 +58,7 @@ class Nav extends React.Component {
                 <li className="hidden-xs">
                   <Link to="/" className="brand"><img src={Logo} alt="WMHD Logo" /></Link>
                 </li>
-                <li class="dropdown">
-                  <a href="/archive" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Archive <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">New Music Monday</a></li>
-                    <li><a href="#">Podcasts</a></li>
-                    <li><a href="#">Alumni</a></li>
-                  </ul>
-                </li>
+                <li><a href="https://www.mixcloud.com/wmhdonlineradio/">Archive</a></li>
                 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform">Rental/DJ Requests</a></li>
               </ul>{ /* /.nav */ }
             </div>{ /*/.nav-collapse */ }

@@ -1814,12 +1814,12 @@ a:hover {
   font-size: 18px;
 }
 
-<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
-=======
+}
+
 .history-list {
   padding: 10px;
 }
@@ -1852,5 +1852,4 @@ a:hover {
 
 .player-social i.fa-facebook:hover {
   color: #3b5998;
->>>>>>> master
 }
