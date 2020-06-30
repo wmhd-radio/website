@@ -59,9 +59,7 @@ const IndexPage = () => (
               Things start off smoothly as listeners email in requests however things begin to fall off track as the program glitches. At first, it appears to only be an awkward pause between songs but soon it becomes apparent there is more to these technical difficulties than just dead air. 
               </p><p>
               This play was written by Katana Colledge. The host was played by Katana Colledge. The Equipment Director was played by Graham Hepworth.</p>
-              <audio src="assets/audio/halo_play.mp3" controls>
-              Your browser does not support the audio element.
-              </audio>
+              <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/"> Listen Here! </a> </button>
         </div>
       </div>{ /* /.container */ }
     </section>{ /* highlight */ }
@@ -87,7 +85,8 @@ const IndexPage = () => (
         <div className="overlay">
           <h2>Do You Need Some Equipment For An Event?</h2>
           <div className="text">
-            <p>Luckily for you, WMHD offers our equpiment for rental! If you have an event coming up and are in need of anything music related, we're here.</p>
+            <p>Luckily for you, WMHD offers our equpiment for rental! If you have an event coming up and are in need of anything music related, we're here. If you would like to see more, just click the button!</p>
+            <button class="def-button2"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform"> Rental Form </a> </button>
          </div>
         </div>
       </div>{ /* /.container */ }
@@ -101,6 +100,7 @@ const IndexPage = () => (
           <h2>Check This Out</h2>
           <div className="text">
             <p>This show was aired (date) and was originally created by (creator).</p>
+            <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/"> Listen Here! </a> </button>
          </div>
         </div>
       </div>{ /* /.container */ }
@@ -114,6 +114,7 @@ const IndexPage = () => (
           <h2>About WMHD</h2>
           <div className="text">
             <p>WMHD is an online college radio station hosted by students of Rose-Hulman Institute of Technology.</p>
+            <button class="def-button2"> <a href="about"> About Us </a> </button>
          </div>
         </div>
       </div>{ /* /.container */ }

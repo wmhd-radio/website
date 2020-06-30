@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Logo from "../images/WMHD-Logo.png"
 
 class Nav extends React.Component {
@@ -40,8 +40,8 @@ class Nav extends React.Component {
                 <li class="dropdown">
                 <a href="/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Current</a></li>
+                    <li><AnchorLink to="/about#current">Current </AnchorLink> </li>
+                    <li><AnchorLink to="/about#history">History </AnchorLink> </li>
                   </ul>
                 </li>
                 <li class="dropdown">
