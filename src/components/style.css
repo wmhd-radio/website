@@ -38,7 +38,7 @@
     background-color: #181818;
     color: #cccccc;
     overflow-x: hidden;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 18px;
     width: 100%;
   }
@@ -53,7 +53,7 @@
     text-transform: uppercase;
   }
   body p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.7;
   }
   .bold {

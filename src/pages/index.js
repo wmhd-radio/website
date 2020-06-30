@@ -53,13 +53,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="overlay">
           <h2>Check This Out</h2>
-            <h3>It’s Alive: A Halloween Radio Play</h3>
-              <p>Aired Oct. 31, 2018
-              After several months of research and working out the bugs WMHD is finally able to host live radio shows. One of these first live shows named “It’s Alive!” a live request show where listeners can email in their favorite Halloween songs. Friends and family are all asked to listen and participate firstly to give the host songs to play and secondly to notify the host if any of the previous issues appear with the first broadcast.</p><p> 
-              Things start off smoothly as listeners email in requests however things begin to fall off track as the program glitches. At first, it appears to only be an awkward pause between songs but soon it becomes apparent there is more to these technical difficulties than just dead air. 
-              </p><p>
-              This play was written by Katana Colledge. The host was played by Katana Colledge. The Equipment Director was played by Graham Hepworth.</p>
-              <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/"> Listen Here! </a> </button>
+          <div className="text">
+            <h3>Live DJ Set by Keith CR</h3>
+              <p>Aired June. 06, 2020 <br></br> <br></br> PLAYING TRACKS BY: <br></br>
+              Maddix, Anvy, Coldplay, Danny Olson, Henry Hartley, Sandro Silva X Saberz, W&W & Hardwell & Lil Jon and more.</p>
+              <p>Every other Friday night we have our continuing, now hour long, live show with Keith! You can listen to some awesome music and interact with Keith as he DJ's via our discord live chat. </p>
+              <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/keith-c-r-dj-set-2-by-keith-cr/"> Listen Here! </a> </button>
+          </div>
         </div>
       </div>{ /* /.container */ }
     </section>{ /* highlight */ }
@@ -85,7 +85,6 @@ const IndexPage = () => (
         <div className="overlay">
           <h2>Do You Need Some Equipment For An Event?</h2>
           <div className="text">
-            <p>Luckily for you, WMHD offers our equpiment for rental! If you have an event coming up and are in need of anything music related, we're here. If you would like to see more, just click the button!</p>
             <button class="def-button2"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform"> Rental Form </a> </button>
          </div>
         </div>
@@ -99,7 +98,9 @@ const IndexPage = () => (
         <div className="overlay">
           <h2>Check This Out</h2>
           <div className="text">
-            <p>This show was aired (date) and was originally created by (creator).</p>
+          <h3>Talkin' Bout Rose</h3>
+              <p>Aired May. 06, 2020 </p>
+              <p>Description Needed: </p>
             <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/"> Listen Here! </a> </button>
          </div>
         </div>

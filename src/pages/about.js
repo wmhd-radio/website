@@ -11,7 +11,7 @@ const AboutPage = ({data}) => (
       <h1>About WMHD Radio</h1>
       <Img fluid={data.clubImage.childImageSharp.fluid} className="clubimage" />
 
-      <h2 id="about#current"> Currently: </h2>
+      <h2 id="current"> Currently: </h2>
       <p>WMHD Radio is a student run radio that offers online music, equipment rentals & DJ services for Rose-Hulman Institute of Technology community. Our studio is located in the basement of BSB hall, room 032.</p>
       <h3>Club Meetings</h3>
       <div class="alert alert-danger" role="alert"><b>Notice:</b> Due to the COVID-19 pandemic, all WMHD Radio events and open hours are canceled for the rest of academic year. The studio will be closed for this time period as well.</div>
@@ -56,7 +56,7 @@ const AboutPage = ({data}) => (
       <div>Guitar Lessons from 3:00 PM to 5:00 PM</div>
       <div>Jam Session from 5:00 PM to 12:00 AM</div>
 
-      <h2 id="about#history">History: </h2>
+      <h2 id="history">History: </h2>
 
     </section>
   </>
