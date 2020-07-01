@@ -83,9 +83,14 @@ const IndexPage = () => (
     <section className="rentals" id="rentals">
       <div className="container">
         <div className="overlay">
-          <h2>Do You Need Some Equipment For An Event?</h2>
+          <h2>Do You Need Some Help?</h2>
           <div className="text">
+            <h3>Rentals</h3>
+            <p>WMHD is always happy to rent out our equipment and DJ services for any event you might be able to imagine and plan. We have high quality equipment ready for you to use when you need it. From microphones to full on lighting set ups and mixers, we're here to help you out! Not to forget our facilities which are open to student use. We have our fully equipped recording studio, including a keyboard, drum kit, and bass amp, and our brand new podcasting studio equipped with three high quality microhphones. <br></br> Just fill out our rental form using the button below!</p>
             <button class="def-button2"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform"> Rental Form </a> </button>
+            <h3>Services</h3>
+            <p>WMHD also offers different types of services, not just use of equipment. Students apart of WMHD offer their help with both production and guitar lessons. These lessons are often in small groups or even one-on-one, giving you that valuable experience needed to master any new skill! <br></br> If you're at all interested, feel free to hit the button below to get more information!</p>
+            <button class="def-button2"> <a href="/Services"> Services </a> </button>
          </div>
         </div>
       </div>{ /* /.container */ }
