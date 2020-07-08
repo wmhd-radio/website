@@ -57,7 +57,7 @@ const IndexPage = () => (
             <h3>Live DJ Set by Keith CR</h3>
               <p>Aired June. 06, 2020 <br></br> <br></br> PLAYING TRACKS BY: <br></br>
               Maddix, Anvy, Coldplay, Danny Olson, Henry Hartley, Sandro Silva X Saberz, W&W & Hardwell & Lil Jon and more.</p>
-              <p>Every other Friday night we have our continuing, now hour long, live show with Keith! You can listen to some awesome music and interact with Keith as he DJ's via our discord live chat. </p>
+              <p>Every other Friday night we have our continuing, now hour long, live show with Keith! You can listen to some awesome music and interact with Keith as he DJ's via our discord and mixcloud live chat. </p>
               <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/keith-c-r-dj-set-2-by-keith-cr/"> Listen Here! </a> </button>
           </div>
         </div>
@@ -104,9 +104,9 @@ const IndexPage = () => (
           <h2>Check This Out</h2>
           <div className="text">
           <h3>Talkin' Bout Rose</h3>
-              <p>Aired May. 06, 2020 </p>
-              <p>Description Needed: </p>
-            <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/"> Listen Here! </a> </button>
+              <p>First Aired April. 14, 2020 </p>
+              <p>Catch up with all the things going on at Rose with Eric Liobis, Emiliee Roberts, and Cory Pardiek along with different special guests. From campus updates to the inside scoop on other projects from varying groups on and off campus. One of the best ways to get connected if you're missing Good ol' Rose!</p>
+            <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/residence-life-podcast/"> Listen Here! </a> </button>
          </div>
         </div>
       </div>{ /* /.container */ }
@@ -126,6 +126,22 @@ const IndexPage = () => (
       </div>{ /* /.container */ }
     </section>{ /* about */ }
     { /* About End */ }
+
+    { /* Highlight Begin */ }
+    <section className="highlight" id="highlight">
+      <div className="container">
+        <div className="overlay">
+          <h2>Check This Out</h2>
+          <div className="text">
+          <h3>New Radio Launch!</h3>
+              <p>Aired April. 16, 2020 </p>
+              <p>The WMHD Online Radio Launch Event marked the official launch of version 2.0 of WMHD Online Radio. The event featured 14 current students and 7 alumni introducing their favorite songs in a 4+ hour event. </p>
+            <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/wmhd-online-radio-launch-event/"> Listen Here! </a> </button>
+         </div>
+        </div>
+      </div>{ /* /.container */ }
+    </section>{ /* highlight */ }
+    { /* Highlight End */ }
 
     { /* calendarbegin */ }
     <section className="calendar" id="calendar">
