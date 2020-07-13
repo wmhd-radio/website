@@ -55,10 +55,9 @@ const IndexPage = () => (
           <h2>Check This Out</h2>
           <div className="text">
             <h3>Live DJ Set by Keith CR</h3>
-              <p>Aired June. 06, 2020 <br></br> <br></br> PLAYING TRACKS BY: <br></br>
-              Maddix, Anvy, Coldplay, Danny Olson, Henry Hartley, Sandro Silva X Saberz, W&W & Hardwell & Lil Jon and more.</p>
+              <p>First Aired May. 2, 2020</p>
               <p>Every other Friday night we have our continuing, now hour long, live show with Keith! You can listen to some awesome music and interact with Keith as he DJ's via our discord and mixcloud live chat. </p>
-              <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/keith-c-r-dj-set-2-by-keith-cr/"> Listen Here! </a> </button>
+              <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/live-dj-set-with-keith-cr/"> Listen Here! </a> </button>
           </div>
         </div>
       </div>{ /* /.container */ }
@@ -105,7 +104,7 @@ const IndexPage = () => (
           <div className="text">
           <h3>Talkin' Bout Rose</h3>
               <p>First Aired April. 14, 2020 </p>
-              <p>Catch up with all the things going on at Rose with Eric Liobis, Emiliee Roberts, and Cory Pardiek along with different special guests. From campus updates to the inside scoop on other projects from varying groups on and off campus. One of the best ways to get connected if you're missing Good ol' Rose!</p>
+              <p>Catch up with all the things going on at Rose with Eric Liobis, Emiliee Roberts, and Cory Pardiek along with different special guests. From campus updates to the inside scoop on other projects from varying groups on and off campus. One of the best ways to get connected if you're missing Good ol' Rose! <Img fluid={data.highlightImage.childImageSharp.fluid} className="highlightimage" /></p>
             <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/residence-life-podcast/"> Listen Here! </a> </button>
          </div>
         </div>
@@ -154,5 +153,17 @@ const IndexPage = () => (
     { /* calendar end */ }
   </>
 )
+
+export const query = graphql`
+  query {
+    highlightImage: file(relativePath: { eq: "Talking_Bout_Rose.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 560) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
