@@ -6,8 +6,9 @@ import Nav from "../components/nav"
 
 import Banner from "../images/banner2.jpg"  
 import "../components/index.css"
+import Img from "gatsby-image"
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
   <>
     <SEO title="Home" />
     <section className="banner" id="banner">
