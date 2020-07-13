@@ -104,9 +104,15 @@ const IndexPage = ({data}) => (
           <h2>Check This Out</h2>
           <div className="text">
           <h3>Talkin' Bout Rose</h3>
-              <p>First Aired April. 14, 2020 </p>
-              <p>Catch up with all the things going on at Rose with Eric Liobis, Emiliee Roberts, and Cory Pardiek along with different special guests. From campus updates to the inside scoop on other projects from varying groups on and off campus. One of the best ways to get connected if you're missing Good ol' Rose! <Img fluid={data.highlightImage.childImageSharp.fluid} className="highlightimage" /></p>
-            <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/residence-life-podcast/"> Listen Here! </a> </button>
+          <div class="row">
+            <div class="col-md-6">
+              <p>Catch up with all the things going on at Rose with Eric Liobis, Emiliee Roberts, and Cory Pardiek along with different special guests. From campus updates to the inside scoop   on other projects from varying groups on and off campus. One of the best ways to get connected if you're missing Good ol' Rose!</p>
+              <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/residence-life-podcast/"> Listen Here! </a> </button>
+            </div>
+            <div class="col-md-6">
+              <Img fluid={{ ...data.highlightImage.childImageSharp.fluid, aspectRatio: 1 / 1 }} className="highlightimage" />
+            </div>
+          </div>
          </div>
         </div>
       </div>{ /* /.container */ }
@@ -157,9 +163,9 @@ const IndexPage = ({data}) => (
 
 export const query = graphql`
   query {
-    highlightImage: file(relativePath: { eq: "Talking_Bout_Rose.jpg" }) {
+    highlightImage: file(relativePath: { eq: "Talking Bout Rose.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 560) {
+        fluid(maxWidth: 150, maxHeight: 150) {
           ...GatsbyImageSharpFluid
         }
       }
