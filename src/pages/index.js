@@ -105,12 +105,12 @@ const IndexPage = ({data}) => (
           <div className="text">
           <h3>Talkin' Bout Rose</h3>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
               <p>Catch up with all the things going on at Rose with Eric Liobis, Emiliee Roberts, and Cory Pardiek along with different special guests. From campus updates to the inside scoop   on other projects from varying groups on and off campus. One of the best ways to get connected if you're missing Good ol' Rose!</p>
               <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/residence-life-podcast/"> Listen Here! </a> </button>
             </div>
-            <div class="col-md-6">
-              <Img fluid={{ ...data.highlightImage.childImageSharp.fluid, aspectRatio: 1 / 1 }} className="highlightimage" />
+            <div class="col-md-5">
+              <Img fixed={{ ...data.highlightImage.childImageSharp.fixed, aspectRatio: 1 / 1 }} className="highlightimage" />
             </div>
           </div>
          </div>
@@ -165,8 +165,8 @@ export const query = graphql`
   query {
     highlightImage: file(relativePath: { eq: "Talking Bout Rose.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 150, maxHeight: 150) {
-          ...GatsbyImageSharpFluid
+        fixed(width: 300, height: 300) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
