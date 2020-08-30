@@ -43,13 +43,18 @@
     width: 100%;
   }
   body h1,
-  body h2,
   body h3,
   body h4,
   body h5 {
     font-family: "Oswald", helvetica, sans-serif;
     font-weight: 600;
     color: #ffffff;
+    text-transform: uppercase;
+  }
+  body h2 {
+    font-family: "Oswald", helvetica, sans-serif;
+    font-weight: 600;
+    color: #ad241a;
     text-transform: uppercase;
   }
   body p {
