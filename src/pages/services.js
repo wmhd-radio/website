@@ -30,7 +30,7 @@ const ServicesPage = ({data}) => (
         </div>
         <div className="row">
           <div className="col-md-4">
-            <h3>Guitar Lessons</h3>
+            <h3>Lessons & Workshops</h3>
             <Img fluid={data.guitarLessons.childImageSharp.fluid} className="services-pic" />
             <p>Learn the basics of guitar playing every Saturday from 3:00pm to 5:00pm. These free lessons will get you started on electric or acoustic guitar. Contact Laya Mehra for more details.</p>
           </div>
@@ -42,7 +42,7 @@ const ServicesPage = ({data}) => (
           <div className="col-md-4">
             <h3>Podcast Studio</h3>
             <Img fluid={data.podcastStudio.childImageSharp.fluid} className="services-pic" />
-            <p>Our Production Studio is filled to the brim with technology both new and old. Housing everything from reel-to-reel players to soundboards this room has the equipment needed to make your own music. Connected to our Recording Studio, bands and musicians are able to record themselves and the mix the tracks in our Production Studio. Producers are also able to use our online tools such as FL Studio to create their own content. To book our studio, send your emails to wmhdradio@gmail.com</p>
+            <p>Our Podcast Studio was created last year as a home for our WMHD original podcasts. This room contains everything needed to record and produce a podcast. Any Rose-Hulman affiliated group or individual may use the studio for free. Podcasts created there can also be aired on our online radio station. If you’re interested in booking our Podcasting room then send us an email. To book our studio, send your emails to wmhdradio@gmail.com</p>
           </div>
         </div>
     </section>
