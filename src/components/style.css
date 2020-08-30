@@ -54,12 +54,13 @@
     font-family: "Oswald", helvetica, sans-serif;
     font-weight: 600;
     color: #ad241a;
+    background-color: #ffffff;
     text-transform: uppercase;
   }
   body h3 {
     font-family: "Oswald", helvetica, sans-serif;
     font-weight: 600;
-    color: #bab3b3;
+    color: #ed5f55;
     text-transform: uppercase;
   }
   body p {
