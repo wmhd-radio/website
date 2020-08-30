@@ -32,7 +32,7 @@ const ServicesPage = ({data}) => (
           <div className="col-md-4">
             <h3>Lessons & Workshops</h3>
             <Img fluid={data.guitarLessons.childImageSharp.fluid} className="services-pic" />
-            <p>Learn the basics of guitar playing every Saturday from 3:00pm to 5:00pm. These free lessons will get you started on electric or acoustic guitar. Contact Laya Mehra for more details.</p>
+            <p>WMHD Radio offers several peer taught learning experiences for the students of Rose-Hulman. Students can attend lessons and classes where they are able to learn different musical and technical skills. We currently offer guitar lessons that will start educating individuals on how to play the electric or acoustic guitar. We also offer Production lessons where students will have access to our expansive software and equipment. All of our lessons are free. All of our classes are for students, taught by students. We’re always looking to expand our offerings so if there’s a skill you’d like to share with others please reach out to us about starting your own class. If you’re interested in joining a class or starting your own please contact us through email at wmhdradio@gmail.com</p>
           </div>
           <div className="col-md-4">
             <h3>Production Lessons</h3>
