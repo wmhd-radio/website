@@ -23,7 +23,7 @@ const IndexPage = () => (
                       <h2>Where Music Has Dimension</h2>
                     </div>
                     <div className="title animated fadeIn wow" data-wow-delay="1s">
-                      <h1>WMHD Radio <span className="light">The Monkeys</span></h1>
+                      <h1>WMHD Radio <span className="light">The Monkey 2</span></h1>
                     </div>
                     <div className="subtitle animated fadeIn wow" data-wow-delay="1.5s">
                       <h2>Rose-Hulman Institute of Technology</h2>
