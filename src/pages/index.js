@@ -57,7 +57,7 @@ const IndexPage = ({data}) => (
           <div className="text">
             <h3>Live DJ Set by Keith CR</h3>
               <p>First Aired May. 2, 2020</p>
-              <p>Every other Friday night we have our continuing, now hour long, live show with Keith! You can listen to some awesome music and interact with Keith as he DJ's via our discord and mixcloud live chat. </p>
+              <p>Every Friday 10PM to 11PM EST with new episodes every other week. You can listen to some awesome music and interact with Keith as he DJ's via our discord and mixcloud live chat. </p>
               <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/live-dj-set-with-keith-cr/"> Listen Here! </a> </button>
           </div>
         </div>
