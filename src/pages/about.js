@@ -30,29 +30,8 @@ const AboutPage = ({data}) => (
       <div><b>Faculty Advisor</b>: Kevin Lanke</div>
       
       <h3>Room Info</h3>
-      <p>WMHD Radio consists of five different and unique rooms located in BSB basement. These rooms are open daily for members of the Rose-Hulman community to utilize. Filled with equipment, CDs, records, and much more it’s a popular hangout spot for musicians and music fans alike. <br></br> Our Broadcasting Room is utilized for meetings, events, hanging out and much more. Equipped with a TV, couches, tables, and whiteboards this multipurpose room is the heart of our station. <br></br> Our Recording Studio is a soundproofed room that houses equipment and instruments that are available for any Rose-Hulman student to use. This fully functional recording studio can be used by musically aspirational students to record their art. Students don’t even need to own their own equipment as WMHD Radio owns several instruments that are available to the entire community! With guitars, drums, keyboards, and much more we utilize this space every Friday with open jam sessions! Any Rose-Hulman affiliated individual is welcome to come down and make some music and new friends. <br></br> Our Production Studio is filled to the brim with technology both new and old. Housing everything from reel-to-reel players to soundboards this room has the equipment needed to make your own music. Connected to our Recording Studio, bands and musicians are able to record themselves and the mix the tracks in our Production Studio. Producers are also able to use our online tools such as FL Studio to create their own content. <br></br> Our Podcast Studio was created last year as a home for our WMHD original podcasts. This room contains everything needed to record and produce a podcast. The most iconic element of the room has to be the 8ft tall wall of CDs. This wall is sure to inspire any DJ or podcaster that visits the room. If you’re interested in booking our Podcasting room please check out our <a href="https://wmhdradio.org/services">services page. </a>
-        Finally, WMHD Radio’s Music Lounge is our newest room to join our studio. Planned to be completed by this fall, our Music Lounge will be a place dedicated to appreciating music.  We will be moving our extensive CD and Record collection to be housed in our lounge and utilized by the students of Rose-Hulman. With players, speakers, couches, and bean bags students will be able to relax, study, and share their favorite songs with others. </p>
-      
-      <h3>Open Radio Room Hours and Weekly Events</h3>
-      <div class="alert alert-danger" role="alert"><b>Notice:</b> Due to the COVID-19 pandemic, all WMHD Radio events and open hours are canceled for the rest of academic year. The studio will be closed for this time period as well.</div>
-      <div><b>Monday:</b></div>
-      <div>4:00 PM - 5:00 PM (Keith)</div>
-      <div><b>Tuesday:</b></div>
-      <div>1:30 PM - 5:00 PM (Athena)</div>
-      <div><b>Wednesday:</b></div>
-      <div>4:30 PM - 5:30 PM (Will)</div>
-      <div>Officer Mettings at 5:00 PM</div> 
-      <div>Club Meetings at 8:00 PM</div>
-      <div><b>Thursday:</b></div>
-      <div>3:00 PM - 5:00 PM (Laya)</div>
-      <div><b>Friday:</b></div>
-      <div>1:30 PM -5:00 PM (Athena)</div>
-      <div>5:00 PM - 12:00 AM (Katana)</div>
-      <div>Jam Session from 8:00 PM to 12:00 AM</div>
-      <div><b>Saturday:</b></div>
-      <div>Production Lessons from 2:00 PM to 3:30 PM</div> 
-      <div>Guitar Lessons from 3:00 PM to 5:00 PM</div>
-      <div>Jam Session from 5:00 PM to 12:00 AM</div>
+      <p>WMHD Radio consists of five different and unique rooms located in BSB basement. These rooms are open daily for members of the Rose-Hulman community to utilize. Filled with equipment, CDs, records, and much more it’s a popular hangout spot for musicians and music fans alike. <br></br><br></br> Our Broadcasting Room is utilized for meetings, events, hanging out and much more. Equipped with a TV, couches, tables, and whiteboards this multipurpose room is the heart of our station. <br></br><br></br> Our Recording Studio is a soundproofed room that houses equipment and instruments that are available for any Rose-Hulman student to use. This fully functional recording studio can be used by musically aspirational students to record their art. Students don’t even need to own their own equipment as WMHD Radio owns several instruments that are available to the entire community! With guitars, drums, keyboards, and much more we utilize this space every Friday with open jam sessions! Any Rose-Hulman affiliated individual is welcome to come down and make some music and new friends. <br></br> <br></br> Our Production Studio is filled to the brim with technology both new and old. Housing everything from reel-to-reel players to soundboards this room has the equipment needed to make your own music. Connected to our Recording Studio, bands and musicians are able to record themselves and the mix the tracks in our Production Studio. Producers are also able to use our online tools such as FL Studio to create their own content. <br></br><br></br> Our Podcast Studio was created last year as a home for our WMHD original podcasts. This room contains everything needed to record and produce a podcast. The most iconic element of the room has to be the 8ft tall wall of CDs. This wall is sure to inspire any DJ or podcaster that visits the room. If you’re interested in booking our Podcasting room please check out our <a href="https://wmhdradio.org/services">services page. </a>
+        Finally, WMHD Radio’s Music Lounge is our newest room to join our studio. Planned to be completed by this fall, our Music Lounge will be a place dedicated to appreciating music. We will be moving our extensive CD and Record collection to be housed in our lounge and utilized by the students of Rose-Hulman. With players, speakers, couches, and bean bags students will be able to relax, study, and share their favorite songs with others. </p>
 
       <h2 id="history">History: </h2>
 
