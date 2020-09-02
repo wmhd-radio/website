@@ -15,12 +15,12 @@ const ServicesPage = ({data}) => (
           <div className="col-md-4">
             <h3>DJ Services</h3>
             <Img fluid={data.djServices.childImageSharp.fluid} className="services-pic" />
-            <p>WMHD offers DJ services for on-campus events. A WMHD member will bring equipment and run it for any Rose-Hulman on-campus event for free. A playlist can either be created or a playlist can be provided by the event organizers. If you would like us to DJ at your event, please fill out our rental request and DJing services form. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform">form</a> </p>
+            <p>WMHD offers DJ services for on-campus events. A WMHD member will bring equipment and run it for any Rose-Hulman on-campus event for free. A playlist can either be created or a playlist can be provided by the event organizers. If you would like us to DJ at your event, please fill out our rental request and DJing services <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform">form.</a> </p>
           </div>
           <div className="col-md-4">
             <h3>Equipment Rentals</h3>
             <Img fluid={data.equipmentRentals.childImageSharp.fluid} className="services-pic" />
-            <p>WMHD Radio offers free equipment rentals for any Rose-Hulman affiliated group or individual. Speakers, microphones, lightening systems, mixers, and more can all be provided. Popular events that request our equipment include concerts, karaoke, dances, and any event that would benefit from some music. We rent to events of all sizes and can help make your event a success! All rentals must be made at least one week in advance and renters will learn how to operate the equipment to make their event a hit! To request our equipment please fill out our services request form. <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform">form</a>.</p>
+            <p>WMHD Radio offers free equipment rentals for any Rose-Hulman affiliated group or individual. Speakers, microphones, lightening systems, mixers, and more can all be provided. Popular events that request our equipment include concerts, karaoke, dances, and any event that would benefit from some music. We rent to events of all sizes and can help make your event a success! All rentals must be made at least one week in advance and renters will learn how to operate the equipment to make their event a hit! To request our equipment please fill out our services request <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform">form</a>.</p>
           </div>
           <div className="col-md-4">
             <h3>Recording Studio</h3>
