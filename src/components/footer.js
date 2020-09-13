@@ -30,6 +30,8 @@ let Footer = () => {
                     target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube"></i></a>
                     <a href="https://instagram.com/wmhdonlineradio/"
                     target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/wmhd-radio/"
+                    target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
                     </div>{ /* /.socmed-wrap */ }
                 </div>{ /* /.content */ }
                 </div>{ /* /.footer-row */ }
