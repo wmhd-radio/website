@@ -62,6 +62,9 @@ const IndexPage = ({data}) => (
               <p>Every Friday 10PM to 11PM EST with new episodes every other week. You can listen to some awesome music and interact with Keith as he DJ's via our discord and mixcloud live chat. </p>
               <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/live-dj-set-with-keith-cr/"> Listen Here! </a> </button>
             </div>
+            <div class="col-md-5">
+              <Img fixed={{ ...data.highlightImage.childImageSharp.fixed, aspectRatio: 1 / 1 }} className="keithhighlightimage" />
+            </div>
             </div>
           </div>
         </div>
@@ -168,6 +171,13 @@ const IndexPage = ({data}) => (
 export const query = graphql`
   query {
     highlightImage: file(relativePath: { eq: "Talking Bout Rose.jpg" }) {
+      childImageSharp {
+        fixed(width: 300, height: 300) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    keithhighlightImage: file(relativePath: {eq: "Keith Dj.jpg" }) {
       childImageSharp {
         fixed(width: 300, height: 300) {
           ...GatsbyImageSharpFixed

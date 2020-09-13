@@ -19,7 +19,7 @@ let Footer = () => {
         
                 <div className="col-md-4 col-sm-4 footer-row">
                 <div className="title"><h4>Keep Connected</h4></div>
-                <p>Connect with our Social Media</p>
+                <p>Connect with us!</p>
                 <div className="content">
                     <div className="socmed-wrap">
                     <a href="https://www.facebook.com/WMHDOnlineRadio/"
