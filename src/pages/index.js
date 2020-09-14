@@ -93,7 +93,7 @@ const IndexPage = ({data}) => (
           <h2>Do You Need Some Help?</h2>
           <div className="text">
             <h3>Rentals</h3>
-            <p>WMHD is always happy to rent out our equipment and DJ services for any event you might be able to imagine and plan. We have high quality equipment ready for you to use when you need it. From microphones to full on lighting set ups and mixers, we're here to help you out! Not to forget our facilities which are open to student use. We have our fully equipped recording studio, including a keyboard, drum kit, and bass amp, and our brand new podcasting studio equipped with three high quality microhphones. <br></br> Just fill out our rental form using the button below!</p>
+            <p>WMHD is always happy to rent out our equipment and DJ services for any event you might be able to imagine and plan. We have high quality equipment ready for you to use when you need it. From microphones to full on lighting set ups and mixers, we're here to help you out! Not to forget our facilities which are open to student use. We have our fully equipped recording studio, including a keyboard, drum kit, and bass amp, and our brand new podcasting studio equipped with three high quality microphones. <br></br> Just fill out our rental form using the button below!</p>
             <button class="def-button2"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeggZD4Busmn-YDP0NbEWqNMB_leOIePlblqkMUsb9WULST9g/viewform"> Rental Form </a> </button>
             <h3>Services</h3>
             <p>WMHD also offers different types of services, not just use of equipment. Students apart of WMHD offer their help with both production and guitar lessons. These lessons are often in small groups or even one-on-one, giving you that valuable experience needed to master any new skill! <br></br> If you're at all interested, feel free to hit the button below to get more information!</p>
@@ -113,7 +113,7 @@ const IndexPage = ({data}) => (
           <h3>Talkin' Bout Rose</h3>
           <div class="row">
             <div class="col-md-5">
-              <p>Catch up with all the things going on at Rose with Eric Liobis, Emiliee Roberts, and Cory Pardiek along with different special guests. From campus updates to the inside scoop   on other projects from varying groups on and off campus. One of the best ways to get connected if you're missing Good ol' Rose!</p>
+              <p>Catch up with all the things going on at Rose with Eric Liobis, Emilee Roberts, and Cory Pardieck along with different special guests. From campus updates to the inside scoop From campus updates to the inside scoop on other projects from varying groups on and off campus, Talkin’ Bout Rose is one of the best ways to get connected!</p>
               <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/residence-life-podcast/"> Listen Here! </a> </button>
             </div>
             <div class="col-md-5">

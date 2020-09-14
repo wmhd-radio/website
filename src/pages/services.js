@@ -25,21 +25,19 @@ const ServicesPage = ({data}) => (
           <div className="col-md-4">
             <h3>Recording Studio</h3>
             <Img fluid={data.recordingStudio.childImageSharp.fluid} className="services-pic" />
-            <p>Our Recording Studio, located in BSB basement, is a soundproofed room that houses equipment and instruments that are available for any Rose-Hulman student to use. This fully functional recording studio can be used by musically aspirational students to record their art. Students don’t even need to own their own equipment as WMHD Radio owns several instruments that are available to the entire community! Music created using our equipment can be played on our station. To book our studio, send your emails to wmhdradio@gmail.com</p>
+            <p>Our Recording Studio, located in BSB basement, is a soundproofed room that houses equipment and instruments that are available for any Rose-Hulman student to use. This fully functional recording studio can be used by musically aspirational students to record their art. Students don’t even need to own their own equipment as WMHD Radio owns several instruments that are available to the entire community! Music created using our equipment can be played on our station. To book our studio, send your emails to<a href="mailto:wmhdradio@gmail.com"> wmhdradio@gmail.com. </a></p>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <h3>Lessons & Workshops</h3>
             <Img fluid={data.guitarLessons.childImageSharp.fluid} className="services-pic" />
-            <p>WMHD Radio offers several peer taught learning experiences for the students of Rose-Hulman. Students can attend lessons and classes where they are able to learn different musical and technical skills. We currently offer guitar lessons that will start educating individuals on how to play the electric or acoustic guitar. We also offer Production lessons where students will have access to our expansive software and equipment. All of our lessons are free. All of our classes are for students, taught by students. We’re always looking to expand our offerings so if there’s a skill you’d like to share with others please reach out to us about starting your own class. If you’re interested in joining a class or starting your own please contact us through email at wmhdradio@gmail.com</p>
+            <p>WMHD Radio offers several peer taught learning experiences for the students of Rose-Hulman. Students can attend lessons and classes where they are able to learn different musical and technical skills. We currently offer guitar lessons that will start educating individuals on how to play the electric or acoustic guitar. We also offer Production lessons where students will have access to our expansive software and equipment. All of our lessons are free. All of our classes are for students, taught by students. We’re always looking to expand our offerings so if there’s a skill you’d like to share with others please reach out to us about starting your own class. If you’re interested in joining a class or starting your own please contact us through email at<a href="mailto:wmhdradio@gmail.com"> wmhdradio@gmail.com.</a></p>
           </div>
-          <div className="col-md-4">
-          </div>
-          <div className="col-md-4">
+          <div className="col-md-6">
             <h3>Podcast Studio</h3>
             <Img fluid={data.podcastStudio.childImageSharp.fluid} className="services-pic" />
-            <p>Our Podcast Studio was created last year as a home for our WMHD original podcasts. This room contains everything needed to record and produce a podcast. Any Rose-Hulman affiliated group or individual may use the studio for free. Podcasts created there can also be aired on our online radio station. If you’re interested in booking our Podcasting room then send us an email. To book our studio, send your emails to wmhdradio@gmail.com</p>
+            <p>Our Podcast Studio was created last year as a home for our WMHD original podcasts. This room contains everything needed to record and produce a podcast. Any Rose-Hulman affiliated group or individual may use the studio for free. Podcasts created there can also be aired on our online radio station. If you’re interested in booking our Podcasting room then send us an email. To book our studio, send your emails to<a href="mailto:wmhdradio@gmail.com"> wmhdradio@gmail.com.</a></p>
           </div>
         </div>
     </section>
