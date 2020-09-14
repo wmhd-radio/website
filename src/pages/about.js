@@ -20,6 +20,7 @@ const AboutPage = ({data}) => (
       <p>If you’re a Rose-Hulman student looking to join WMHD Radio, then check out our <a href="https://wmhdradio.org/discord">Discord </a> or our <a href="https://rosehulman.sharepoint.com/sites/WMHD">My Rose-hulman Page </a> to find out about our latest events, when the station is open, meeting times, and much more! </p>
 
       <h3>Officers</h3>
+      <div className="row">
       <div><b>General Manager</b>: Katana Colledge</div>
       <div><b>Equipment Manager</b>: Keith Condray-Raderstorf</div>
       <div><b>Personnel Director</b>: Laya Mehra</div>
@@ -28,7 +29,12 @@ const AboutPage = ({data}) => (
       <div><b>Webmaster</b>: Athena Henderson</div>
       <div><b>Treasurer</b>: Andrew Orians</div>
       <div><b>Faculty Advisor</b>: Kevin Lanke</div>
+      </div>
+      <div className="row">
+        <div className="col-md-5">
       <Img fluid={data.officersImage.childImageSharp.fluid} className="officersImage" />
+      </div>
+      </div>
       
       <h3>Room Info</h3>
       <p>WMHD Radio consists of five different and unique rooms located in BSB basement. These rooms are open daily for members of the Rose-Hulman community to utilize. Filled with equipment, CDs, records, and much more it’s a popular hangout spot for musicians and music fans alike. <br></br><br></br> Our Broadcasting Room is utilized for meetings, events, hanging out and much more. Equipped with a TV, couches, tables, and whiteboards this multipurpose room is the heart of our station. <br></br><br></br> Our Recording Studio is a soundproofed room that houses equipment and instruments that are available for any Rose-Hulman student to use. This fully functional recording studio can be used by musically aspirational students to record their art. Students don’t even need to own their own equipment as WMHD Radio owns several instruments that are available to the entire community! With guitars, drums, keyboards, and much more we utilize this space every Friday with open jam sessions! Any Rose-Hulman affiliated individual is welcome to come down and make some music and new friends. <br></br> <br></br> Our Production Studio is filled to the brim with technology both new and old. Housing everything from reel-to-reel players to soundboards this room has the equipment needed to make your own music. Connected to our Recording Studio, bands and musicians are able to record themselves and the mix the tracks in our Production Studio. Producers are also able to use our online tools such as FL Studio to create their own content. <br></br><br></br> Our Podcast Studio was created last year as a home for our WMHD original podcasts. This room contains everything needed to record and produce a podcast. The most iconic element of the room has to be the 8ft tall wall of CDs. This wall is sure to inspire any DJ or podcaster that visits the room. If you’re interested in booking our Podcasting room please check out our <a href="https://wmhdradio.org/services">services page. </a> <br></br> <br></br>
