@@ -29,7 +29,7 @@ const ServicesPage = ({data}) => (
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
           </div>
           <div className="col-md-4">
             <h3>Lessons & Workshops</h3>
@@ -41,7 +41,7 @@ const ServicesPage = ({data}) => (
             <Img fluid={data.podcastStudio.childImageSharp.fluid} className="services-pic" />
             <p>Our Podcast Studio was created last year as a home for our WMHD original podcasts. This room contains everything needed to record and produce a podcast. Any Rose-Hulman affiliated group or individual may use the studio for free. Podcasts created there can also be aired on our online radio station. If you’re interested in booking our Podcasting room then send us an email. To book our studio, send your emails to<a href="mailto:wmhdradio@gmail.com"> wmhdradio@gmail.com.</a></p>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
           </div>
         </div>
     </section>
