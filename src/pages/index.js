@@ -63,7 +63,7 @@ const IndexPage = ({data}) => (
               <button class="def-button2"> <a href="https://www.mixcloud.com/wmhdonlineradio/playlists/live-dj-set-with-keith-cr/"> Listen Here! </a> </button>
             </div>
             <div class="col-md-5">
-              <Img fixed={{ ...data.highlightImage.childImageSharp.fixed, aspectRatio: 1 / 1 }} className="keithhighlightimage" />
+              <Img fixed={{ ...data.keithhighlightImage.childImageSharp.fixed, aspectRatio: 1 / 1 }} className="keithhighlightimage" />
             </div>
             </div>
           </div>
