@@ -21,19 +21,19 @@ const AboutPage = ({data}) => (
 
       <h3>Officers</h3>
       <div className="row">
-      <div><b>General Manager</b>: Katana Colledge</div>
-      <div><b>Equipment Manager</b>: Keith Condray-Raderstorf</div>
-      <div><b>Personnel Director</b>: Laya Mehra</div>
-      <div><b>Program Director</b>: Sabri Amer</div>
-      <div><b>Communications Director</b>: Logan Ramon</div>
-      <div><b>Webmaster</b>: Athena Henderson</div>
-      <div><b>Treasurer</b>: Andrew Orians</div>
-      <div><b>Faculty Advisor</b>: Kevin Lanke</div>
-      </div>
-      <div className="row">
         <div className="col-md-5">
-      <Img fluid={data.officersImage.childImageSharp.fluid} className="officersImage" />
-      </div>
+          <div><b>General Manager</b>: Katana Colledge</div>
+          <div><b>Equipment Manager</b>: Keith Condray-Raderstorf</div>
+          <div><b>Personnel Director</b>: Laya Mehra</div>
+          <div><b>Program Director</b>: Sabri Amer</div>
+          <div><b>Communications Director</b>: Logan Ramon</div>
+          <div><b>Webmaster</b>: Athena Henderson</div>
+          <div><b>Treasurer</b>: Andrew Orians</div>
+          <div><b>Faculty Advisor</b>: Kevin Lanke</div>
+        </div>
+        <div className="col-md-5">
+          <Img fluid={data.officersImage.childImageSharp.fluid} className="officersImage" />
+        </div>
       </div>
       
       <h3>Room Info</h3>
