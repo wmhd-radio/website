@@ -19,7 +19,7 @@ const AboutPage = ({data}) => (
       <div className="alert alert-danger" role="alert"><b>Notice:</b> Due to the COVID-19 pandemic, WMHD Radio meetings and open hours will be limited.</div>
       <p>If you’re a Rose-Hulman student looking to join WMHD Radio, then check out our <a href="https://wmhdradio.org/discord">Discord </a> or our <a href="https://rosehulman.sharepoint.com/sites/WMHD">My Rose-hulman Page </a> to find out about our latest events, when the station is open, meeting times, and much more! </p>
 
-      <h3>Current Officers</h3>
+      <h3>Officers</h3>
       <div><b>General Manager</b>: Katana Colledge</div>
       <div><b>Equipment Manager</b>: Keith Condray-Raderstorf</div>
       <div><b>Personnel Director</b>: Laya Mehra</div>
