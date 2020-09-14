@@ -51,7 +51,7 @@ export const query = graphql`
         }
       }
     },
-    officersImage: file(relativePath: { eq: "officers.jpg" }) {
+    officersImage: file(relativePath: { eq: "officers.JPG" }) {
       childImageSharp {
         fluid(maxWidth:4028) {
           ...GatsbyImageSharpFluid
